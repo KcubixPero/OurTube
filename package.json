@@ -1,0 +1,33 @@
+{
+  "name": "ourtube",
+  "version": "1.0.0",
+  "description": "\"Supposedly\" better youtube",
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "homepage": "https://github.com/KcubixPero/OurTube#readme",
+  "bugs": {
+    "url": "https://github.com/KcubixPero/OurTube/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KcubixPero/OurTube.git"
+  },
+  "license": "ISC",
+  "author": "Keshav",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
